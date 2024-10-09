@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://junction.proxy.rlwy.net:10428';
+const API_URL = 'http://junction.proxy.rlwy.net:22651';
 
 export const savePost = async (payload) => {
     try {

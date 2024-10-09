@@ -14,7 +14,7 @@ import java.util.List;
 @RestController
 @Slf4j
 @RequiredArgsConstructor
-@CrossOrigin
+@CrossOrigin(origins = {"https://indeed-railway-ce0qwroyb-taruns-projects-e8d11d94.vercel.app", "http://localhost:3000"})
 public class PostController {
 
     final PostService postService;
