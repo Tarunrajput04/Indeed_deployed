@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://junction.proxy.rlwy.net:22651';
+const API_URL = 'https://distinguished-embrace-production.up.railway.app';
 
 export const savePost = async (payload) => {
     try {
